@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #222, #444);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .song {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .song:hover {
+    background-color: #555;
+  }
+  
+  .song img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .song-title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .player {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .player img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .info {
+    text-align: left;
+    flex: 1;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .controls {
+    margin-bottom: 1rem;
+  }
+  
+  .controls button {
+    background: #444;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background: #666;
+  }
+  
+  #search {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: none;
+  }
+
+  /* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #222;
+    color: white;
+}

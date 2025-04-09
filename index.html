@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life Is Good</title>
+  <link rel="icon" type="image/png" href="images/favicon-96x96.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Play your music 🎧</h1>
+    
+    <div class="playlist" id="playlist"></div>
+
+    <div class="player">
+      <img id="cover" src="images/Mabel.gif" alt="Cover" />
+      <div class="info">
+        <h2 id="title">Chọn bài hát</h2>
+        <p id="artist">Nghệ sĩ</p>
+        <audio id="audio" controls></audio>
+      </div>
+    </div>
+
+    <div class="controls">
+        <button id="btn-shuffle">🔀 Phát ngẫu nhiên</button>
+        <button id="btn-repeat">🔁 Lặp lại</button>
+        <button id="btn-fav">❤️ Thêm vào danh sách phát</button>
+      </div>
+      
+      <input type="text" id="search" placeholder="🔍 Tìm bài hát..." />
+      
+  </div>
+
+  <script src="script.js"></script>
+
+<!-- Footer -->
+    <footer>
+    <p>&copy; 2025 Life Is Good | Designed by Nureu-u</p>
+    </footer>
+</body>
+</html>
