@@ -2,55 +2,55 @@ const playlist = [
     {
       title: "Somebody That I Used to Know",
       artist: "Neuro-sama and Evil",
-      src: "music/Somebody_That_I_Used_to_Know_by_Neuro-Evil.mp3",
+      src: "Somebody_That_I_Used_to_Know_by_Neuro-Evil.mp3",
       cover: "images/Somebody_That_I_Used_to_Know_by_Neuro-Evil.jpeg"
     },
     {
       title: "Dancin'",
       artist: "Neuro-sama",
-      src: "music/Dancin'_by_Neuro-sama.mp3",
+      src: "Dancin'_by_Neuro-sama.mp3",
       cover: "images/Dancin'_by_Neuro-sama.jpg"
     },
     {
         title: "LIFE",
         artist: "Neuro-sama",
-        src: "music/LIFE_Neuro-sama.mp3",
+        src: "LIFE_Neuro-sama.mp3",
         cover: "images/LIFE_Neuro-sama.jpg"
     },
     {
         title: "mumei",
         artist: "Nanashi Mumei Ch. hololive-EN",
-        src: "music/「MV」mumei.mp3",
+        src: "「MV」mumei.mp3",
         cover: "images/「MV」mumei.jpeg"
     },
     {
         title: "【original】#あくあ色ぱれっと【ホロライブ⧸湊あくあ】",
         artist: "Minato Aqua",
-        src: "music/あくあ色ぱれっと.mp3",
+        src: "あくあ色ぱれっと.mp3",
         cover: "images/あくあ色ぱれっと.jpeg"
     }, 
     {
         title: "Caramel Pain ⧸ 星街すいせい(official)",
         artist: "Hoshimachi Suisei",
-        src: "music/Caramel Pain ⧸ 星街すいせい(official).mp3",
+        src: "Caramel Pain ⧸ 星街すいせい(official).mp3",
         cover: "images/Caramel Pain ⧸ 星街すいせい(official).jpeg"
     },
     {
         title: "Golden Time Rubber",
         artist: "Hoshimachi Suisei",
-        src: "music/Golden Time Rubber.mp3",
+        src: "Golden Time Rubber.mp3",
         cover: "images/Golden_Time_Rubber.jpg"
     },
     {
         title: "【original】メイジ・オブ・ヴァイオレット【ホロライブ⧸紫咲シオン】",
         artist: "Murasaki Shion",
-        src: "music/【original】メイジ・オブ・ヴァイオレット【ホロライブ⧸紫咲シオン】.mp3",
+        src: "【original】メイジ・オブ・ヴァイオレット【ホロライブ⧸紫咲シオン】.mp3",
         cover: "images/【original】メイジ・オブ・ヴァイオレット【ホロライブ⧸紫咲シオン】.jpeg"
     },
     {
         title: "ビビデバ ⧸ 星街すいせい(official)",
         artist: "Hoshimachi Suisei",
-        src: "music/ビビデバ ⧸ 星街すいせい(official).mp3",
+        src: "ビビデバ ⧸ 星街すいせい(official).mp3",
         cover: "images/ビビデバ ⧸ 星街すいせい(official).jpg"
     },
   ];
